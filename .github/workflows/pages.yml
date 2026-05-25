@@ -76,6 +76,20 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Switch Pages source to GitHub Actions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BUILD_TYPE=$(gh api repos/${{ github.repository }}/pages --jq '.build_type')
+          if [ "$BUILD_TYPE" != "workflow" ]; then
+            gh api -X PUT repos/${{ github.repository }}/pages \
+              --field build_type=workflow \
+              --silent && echo "Switched Pages source to GitHub Actions workflow" \
+              || echo "Could not switch Pages source (requires repo admin permissions)"
+          else
+            echo "Pages source already set to GitHub Actions workflow"
+          fi
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
