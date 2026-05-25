@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Creative CMS Landing",
+    "description": "Адаптивная промо-страница, собранная на бесплатной CMS-структуре с управляемым JSON-контентом."
+  },
+  "hero": {
+    "eyebrow": "Free CMS implementation",
+    "title": "Landing page built for fast content updates",
+    "lead": "Страница разделяет контент, шаблон и стили: редактор меняет JSON, а интерфейс сохраняет аккуратную адаптивную верстку.",
+    "primaryCta": "View sections",
+    "secondaryCta": "Performance notes"
+  },
+  "features": [
+    {
+      "title": "Pixel-focused layout",
+      "text": "Компоненты собраны на CSS Grid и clamp-ограничениях, чтобы блоки держали пропорции на широких и мобильных экранах."
+    },
+    {
+      "title": "CMS-ready content",
+      "text": "Тексты, SEO-мета и повторяемые карточки лежат в JSON-файле и могут быть заменены из админки flat-file CMS."
+    },
+    {
+      "title": "Lean delivery",
+      "text": "Без внешних шрифтов и тяжелых библиотек: критичный CSS локален, изображения градиентные, JavaScript минимален."
+    }
+  ],
+  "stats": [
+    { "value": "0", "label": "database setup" },
+    { "value": "1", "label": "editable content file" },
+    { "value": "100%", "label": "responsive sections" }
+  ],
+  "process": [
+    "Декомпозиция макета на повторяемые секции",
+    "Вынос текстов и настроек в CMS-контент",
+    "Проверка мобильной сетки и клавиатурной навигации",
+    "Документирование оптимизаций и AI-assisted частей"
+  ]
+}
