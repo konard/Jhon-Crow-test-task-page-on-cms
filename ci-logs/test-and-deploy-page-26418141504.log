@@ -1,0 +1,187 @@
+test	Set up job	﻿2026-05-25T20:16:49.7983203Z Current runner version: '2.334.0'
+test	Set up job	2026-05-25T20:16:49.8008642Z ##[group]Runner Image Provisioner
+test	Set up job	2026-05-25T20:16:49.8009481Z Hosted Compute Agent
+test	Set up job	2026-05-25T20:16:49.8010297Z Version: 20260213.493
+test	Set up job	2026-05-25T20:16:49.8010873Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+test	Set up job	2026-05-25T20:16:49.8011634Z Build Date: 2026-02-13T00:28:41Z
+test	Set up job	2026-05-25T20:16:49.8012316Z Worker ID: {1edc9c7d-8cf9-4264-b110-10fb185307f6}
+test	Set up job	2026-05-25T20:16:49.8013046Z Azure Region: eastus2
+test	Set up job	2026-05-25T20:16:49.8013562Z ##[endgroup]
+test	Set up job	2026-05-25T20:16:49.8014988Z ##[group]Operating System
+test	Set up job	2026-05-25T20:16:49.8015623Z Ubuntu
+test	Set up job	2026-05-25T20:16:49.8016433Z 24.04.4
+test	Set up job	2026-05-25T20:16:49.8016963Z LTS
+test	Set up job	2026-05-25T20:16:49.8017417Z ##[endgroup]
+test	Set up job	2026-05-25T20:16:49.8017935Z ##[group]Runner Image
+test	Set up job	2026-05-25T20:16:49.8018442Z Image: ubuntu-24.04
+test	Set up job	2026-05-25T20:16:49.8019041Z Version: 20260518.149.1
+test	Set up job	2026-05-25T20:16:49.8020048Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260518.149/images/ubuntu/Ubuntu2404-Readme.md
+test	Set up job	2026-05-25T20:16:49.8021750Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260518.149
+test	Set up job	2026-05-25T20:16:49.8022673Z ##[endgroup]
+test	Set up job	2026-05-25T20:16:49.8023788Z ##[group]GITHUB_TOKEN Permissions
+test	Set up job	2026-05-25T20:16:49.8025894Z Contents: read
+test	Set up job	2026-05-25T20:16:49.8026610Z Metadata: read
+test	Set up job	2026-05-25T20:16:49.8027217Z Pages: write
+test	Set up job	2026-05-25T20:16:49.8027732Z ##[endgroup]
+test	Set up job	2026-05-25T20:16:49.8029711Z Secret source: Actions
+test	Set up job	2026-05-25T20:16:49.8030508Z Prepare workflow directory
+test	Set up job	2026-05-25T20:16:49.8373474Z Prepare all required actions
+test	Set up job	2026-05-25T20:16:49.8411434Z Getting action download info
+test	Set up job	2026-05-25T20:16:50.2044030Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+test	Set up job	2026-05-25T20:16:50.3457950Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+test	Set up job	2026-05-25T20:16:50.4973784Z Download action repository 'shivammathur/setup-php@v2' (SHA:7c071dfe9dc99bdf297fa79cb49ea005b9fcadbc)
+test	Set up job	2026-05-25T20:16:50.7486781Z Complete job name: test
+test	Checkout repository	﻿2026-05-25T20:16:50.8215765Z ##[group]Run actions/checkout@v4
+test	Checkout repository	2026-05-25T20:16:50.8217000Z with:
+test	Checkout repository	2026-05-25T20:16:50.8217567Z   repository: konard/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:50.8218429Z   token: ***
+test	Checkout repository	2026-05-25T20:16:50.8218844Z   ssh-strict: true
+test	Checkout repository	2026-05-25T20:16:50.8219261Z   ssh-user: git
+test	Checkout repository	2026-05-25T20:16:50.8219678Z   persist-credentials: true
+test	Checkout repository	2026-05-25T20:16:50.8220152Z   clean: true
+test	Checkout repository	2026-05-25T20:16:50.8220579Z   sparse-checkout-cone-mode: true
+test	Checkout repository	2026-05-25T20:16:50.8221100Z   fetch-depth: 1
+test	Checkout repository	2026-05-25T20:16:50.8221499Z   fetch-tags: false
+test	Checkout repository	2026-05-25T20:16:50.8221937Z   show-progress: true
+test	Checkout repository	2026-05-25T20:16:50.8222364Z   lfs: false
+test	Checkout repository	2026-05-25T20:16:50.8222765Z   submodules: false
+test	Checkout repository	2026-05-25T20:16:50.8223186Z   set-safe-directory: true
+test	Checkout repository	2026-05-25T20:16:50.8223835Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:50.9355498Z Syncing repository: konard/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:50.9357948Z ##[group]Getting Git version info
+test	Checkout repository	2026-05-25T20:16:50.9358977Z Working directory is '/home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms'
+test	Checkout repository	2026-05-25T20:16:50.9360386Z [command]/usr/bin/git version
+test	Checkout repository	2026-05-25T20:16:50.9425199Z git version 2.54.0
+test	Checkout repository	2026-05-25T20:16:50.9450548Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:50.9473114Z Temporarily overriding HOME='/home/runner/work/_temp/8dc7ebed-19c1-417f-aad5-b63839a09baa' before making global git config changes
+test	Checkout repository	2026-05-25T20:16:50.9474615Z Adding repository directory to the temporary git global config as a safe directory
+test	Checkout repository	2026-05-25T20:16:50.9478806Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:50.9525057Z Deleting the contents of '/home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms'
+test	Checkout repository	2026-05-25T20:16:50.9528631Z ##[group]Initializing the repository
+test	Checkout repository	2026-05-25T20:16:50.9533105Z [command]/usr/bin/git init /home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:50.9630569Z hint: Using 'master' as the name for the initial branch. This default branch name
+test	Checkout repository	2026-05-25T20:16:50.9632310Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test	Checkout repository	2026-05-25T20:16:50.9633951Z hint: to use in all of your new repositories, which will suppress this warning,
+test	Checkout repository	2026-05-25T20:16:50.9635210Z hint: call:
+test	Checkout repository	2026-05-25T20:16:50.9635829Z hint:
+test	Checkout repository	2026-05-25T20:16:50.9636996Z hint: 	git config --global init.defaultBranch <name>
+test	Checkout repository	2026-05-25T20:16:50.9637649Z hint:
+test	Checkout repository	2026-05-25T20:16:50.9638232Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test	Checkout repository	2026-05-25T20:16:50.9639200Z hint: 'development'. The just-created branch can be renamed via this command:
+test	Checkout repository	2026-05-25T20:16:50.9639986Z hint:
+test	Checkout repository	2026-05-25T20:16:50.9640395Z hint: 	git branch -m <name>
+test	Checkout repository	2026-05-25T20:16:50.9641150Z hint:
+test	Checkout repository	2026-05-25T20:16:50.9642008Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test	Checkout repository	2026-05-25T20:16:50.9643349Z Initialized empty Git repository in /home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms/.git/
+test	Checkout repository	2026-05-25T20:16:50.9647024Z [command]/usr/bin/git remote add origin https://github.com/konard/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:50.9690255Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:50.9691085Z ##[group]Disabling automatic garbage collection
+test	Checkout repository	2026-05-25T20:16:50.9694033Z [command]/usr/bin/git config --local gc.auto 0
+test	Checkout repository	2026-05-25T20:16:50.9723097Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:50.9723820Z ##[group]Setting up auth
+test	Checkout repository	2026-05-25T20:16:50.9729851Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Checkout repository	2026-05-25T20:16:50.9762213Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Checkout repository	2026-05-25T20:16:51.0102905Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Checkout repository	2026-05-25T20:16:51.0133598Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Checkout repository	2026-05-25T20:16:51.0370552Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Checkout repository	2026-05-25T20:16:51.0414774Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Checkout repository	2026-05-25T20:16:51.0650873Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test	Checkout repository	2026-05-25T20:16:51.0686819Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:51.0687890Z ##[group]Fetching the repository
+test	Checkout repository	2026-05-25T20:16:51.0695508Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +38eba433b041bf390e0f12730cce04747c159cc3:refs/remotes/origin/issue-1-b2930f5e2eb8
+test	Checkout repository	2026-05-25T20:16:51.3750434Z From https://github.com/konard/Jhon-Crow-test-task-page-on-cms
+test	Checkout repository	2026-05-25T20:16:51.3752872Z  * [new ref]         38eba433b041bf390e0f12730cce04747c159cc3 -> origin/issue-1-b2930f5e2eb8
+test	Checkout repository	2026-05-25T20:16:51.3788385Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:51.3789788Z ##[group]Determining the checkout info
+test	Checkout repository	2026-05-25T20:16:51.3791335Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:51.3794858Z [command]/usr/bin/git sparse-checkout disable
+test	Checkout repository	2026-05-25T20:16:51.3839299Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test	Checkout repository	2026-05-25T20:16:51.3865924Z ##[group]Checking out the ref
+test	Checkout repository	2026-05-25T20:16:51.3869946Z [command]/usr/bin/git checkout --progress --force -B issue-1-b2930f5e2eb8 refs/remotes/origin/issue-1-b2930f5e2eb8
+test	Checkout repository	2026-05-25T20:16:51.4012355Z Switched to a new branch 'issue-1-b2930f5e2eb8'
+test	Checkout repository	2026-05-25T20:16:51.4014591Z branch 'issue-1-b2930f5e2eb8' set up to track 'origin/issue-1-b2930f5e2eb8'.
+test	Checkout repository	2026-05-25T20:16:51.4022391Z ##[endgroup]
+test	Checkout repository	2026-05-25T20:16:51.4060502Z [command]/usr/bin/git log -1 --format=%H
+test	Checkout repository	2026-05-25T20:16:51.4083655Z 38eba433b041bf390e0f12730cce04747c159cc3
+test	Set up Node.js	﻿2026-05-25T20:16:51.4413714Z ##[group]Run actions/setup-node@v4
+test	Set up Node.js	2026-05-25T20:16:51.4414894Z with:
+test	Set up Node.js	2026-05-25T20:16:51.4415690Z   node-version: 20
+test	Set up Node.js	2026-05-25T20:16:51.4416783Z   always-auth: false
+test	Set up Node.js	2026-05-25T20:16:51.4417733Z   check-latest: false
+test	Set up Node.js	2026-05-25T20:16:51.4418941Z   token: ***
+test	Set up Node.js	2026-05-25T20:16:51.4419754Z ##[endgroup]
+test	Set up Node.js	2026-05-25T20:16:51.6566418Z Attempting to download 20...
+test	Set up Node.js	2026-05-25T20:16:52.0582742Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+test	Set up Node.js	2026-05-25T20:16:52.4722004Z Extracting ...
+test	Set up Node.js	2026-05-25T20:16:52.4855613Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/46d2e916-573b-4ac6-8d95-59889739c61f -f /home/runner/work/_temp/ba417bb3-7103-4c66-824e-81139d09258a
+test	Set up Node.js	2026-05-25T20:16:53.5707464Z Adding to the cache ...
+test	Set up Node.js	2026-05-25T20:16:55.1082636Z ##[group]Environment details
+test	Set up Node.js	2026-05-25T20:16:55.4549356Z node: v20.20.2
+test	Set up Node.js	2026-05-25T20:16:55.4549924Z npm: 10.8.2
+test	Set up Node.js	2026-05-25T20:16:55.4550411Z yarn: 1.22.22
+test	Set up Node.js	2026-05-25T20:16:55.4551311Z ##[endgroup]
+test	Set up PHP	﻿2026-05-25T20:16:55.4811141Z ##[group]Run shivammathur/setup-php@v2
+test	Set up PHP	2026-05-25T20:16:55.4811501Z with:
+test	Set up PHP	2026-05-25T20:16:55.4811718Z   php-version: 8.3
+test	Set up PHP	2026-05-25T20:16:55.4811966Z   ini-file: production
+test	Set up PHP	2026-05-25T20:16:55.4812509Z   github-token: ***
+test	Set up PHP	2026-05-25T20:16:55.4812762Z ##[endgroup]
+test	Set up PHP	2026-05-25T20:16:55.5205687Z [command]/usr/bin/bash /home/runner/work/_actions/shivammathur/setup-php/v2/src/scripts/run.sh
+test	Set up PHP	2026-05-25T20:16:55.5657733Z 
+test	Set up PHP	2026-05-25T20:16:55.5658864Z ^[[90;1m==> ^[[0m^[[37;1mSetup PHP^[[0m
+test	Set up PHP	2026-05-25T20:16:58.7157509Z ^[[32;1m✓ ^[[0m^[[34;1mPHP ^[[0m^[[90;1mUpdated to PHP 8.3.31^[[0m
+test	Set up PHP	2026-05-25T20:16:58.7158120Z 
+test	Set up PHP	2026-05-25T20:16:58.7158504Z ^[[90;1m==> ^[[0m^[[37;1mSetup Tools^[[0m
+test	Set up PHP	2026-05-25T20:16:59.0525598Z ^[[32;1m✓ ^[[0m^[[34;1mcomposer ^[[0m^[[90;1mAdded composer 2.9.8^[[0m
+test	Set up PHP	2026-05-25T20:16:59.0526386Z 
+test	Set up PHP	2026-05-25T20:16:59.0526791Z ^[[90;1m==> ^[[0m^[[37;1mSponsor setup-php^[[0m
+test	Set up PHP	2026-05-25T20:16:59.0527585Z ^[[32;1m✓ ^[[0m^[[34;1msetup-php ^[[0m^[[90;1mhttps://setup-php.com/sponsor^[[0m
+test	Install dependencies	﻿2026-05-25T20:16:59.0711471Z ##[group]Run npm ci
+test	Install dependencies	2026-05-25T20:16:59.0711754Z ^[[36;1mnpm ci^[[0m
+test	Install dependencies	2026-05-25T20:16:59.0753994Z shell: /usr/bin/bash -e {0}
+test	Install dependencies	2026-05-25T20:16:59.0754293Z env:
+test	Install dependencies	2026-05-25T20:16:59.0754495Z   COMPOSER_PROCESS_TIMEOUT: 0
+test	Install dependencies	2026-05-25T20:16:59.0754745Z   COMPOSER_NO_INTERACTION: 1
+test	Install dependencies	2026-05-25T20:16:59.0754977Z   COMPOSER_NO_AUDIT: 1
+test	Install dependencies	2026-05-25T20:16:59.0755204Z ##[endgroup]
+test	Install dependencies	2026-05-25T20:16:59.3826185Z npm error code EUSAGE
+test	Install dependencies	2026-05-25T20:16:59.3827780Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3828660Z npm error The `npm ci` command can only install with an existing package-lock.json or
+test	Install dependencies	2026-05-25T20:16:59.3829882Z npm error npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or
+test	Install dependencies	2026-05-25T20:16:59.3830919Z npm error later to generate a package-lock.json file, then try again.
+test	Install dependencies	2026-05-25T20:16:59.3831522Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3831934Z npm error Clean install a project
+test	Install dependencies	2026-05-25T20:16:59.3832333Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3832662Z npm error Usage:
+test	Install dependencies	2026-05-25T20:16:59.3833028Z npm error npm ci
+test	Install dependencies	2026-05-25T20:16:59.3833411Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3833741Z npm error Options:
+test	Install dependencies	2026-05-25T20:16:59.3834517Z npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+test	Install dependencies	2026-05-25T20:16:59.3835617Z npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+test	Install dependencies	2026-05-25T20:16:59.3836974Z npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+test	Install dependencies	2026-05-25T20:16:59.3838058Z npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+test	Install dependencies	2026-05-25T20:16:59.3838952Z npm error [--no-bin-links] [--no-fund] [--dry-run]
+test	Install dependencies	2026-05-25T20:16:59.3839827Z npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+test	Install dependencies	2026-05-25T20:16:59.3840812Z npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+test	Install dependencies	2026-05-25T20:16:59.3841425Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3842020Z npm error aliases: clean-install, ic, install-clean, isntall-clean
+test	Install dependencies	2026-05-25T20:16:59.3843027Z npm error
+test	Install dependencies	2026-05-25T20:16:59.3843301Z npm error Run "npm help ci" for more info
+test	Install dependencies	2026-05-25T20:16:59.3843958Z npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-05-25T20_16_59_146Z-debug-0.log
+test	Install dependencies	2026-05-25T20:16:59.3894465Z ##[error]Process completed with exit code 1.
+test	Post Checkout repository	﻿2026-05-25T20:16:59.3985484Z Post job cleanup.
+test	Post Checkout repository	2026-05-25T20:16:59.4998189Z [command]/usr/bin/git version
+test	Post Checkout repository	2026-05-25T20:16:59.5034218Z git version 2.54.0
+test	Post Checkout repository	2026-05-25T20:16:59.5075261Z Temporarily overriding HOME='/home/runner/work/_temp/f47a7cd2-1678-4c65-b7af-0b6bfb914169' before making global git config changes
+test	Post Checkout repository	2026-05-25T20:16:59.5076445Z Adding repository directory to the temporary git global config as a safe directory
+test	Post Checkout repository	2026-05-25T20:16:59.5089126Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Jhon-Crow-test-task-page-on-cms/Jhon-Crow-test-task-page-on-cms
+test	Post Checkout repository	2026-05-25T20:16:59.5125421Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Post Checkout repository	2026-05-25T20:16:59.5158684Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Post Checkout repository	2026-05-25T20:16:59.5401922Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Post Checkout repository	2026-05-25T20:16:59.5427267Z http.https://github.com/.extraheader
+test	Post Checkout repository	2026-05-25T20:16:59.5440237Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+test	Post Checkout repository	2026-05-25T20:16:59.5472244Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Post Checkout repository	2026-05-25T20:16:59.5703322Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Post Checkout repository	2026-05-25T20:16:59.5734303Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Complete job	﻿2026-05-25T20:16:59.6089725Z Cleaning up orphan processes
+test	Complete job	2026-05-25T20:16:59.6373393Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

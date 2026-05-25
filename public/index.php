@@ -17,12 +17,12 @@ function e($value) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= e($content['meta']['title']) ?></title>
   <meta name="description" content="<?= e($content['meta']['description']) ?>">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/">CMS Page</a>
+    <a class="brand" href="./">CMS Page</a>
     <nav aria-label="Primary navigation">
       <a href="#sections">Sections</a>
       <a href="#process">Process</a>
