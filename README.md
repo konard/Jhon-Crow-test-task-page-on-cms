@@ -22,3 +22,9 @@ Then open http://127.0.0.1:8080.
 - `public/content/home.json` stores editable CMS content.
 - `public/assets/styles.css` contains the responsive layout.
 - `docs/case-studies/issue-1` documents research, decisions, and optimization notes.
+
+## Deployment
+
+GitHub Actions runs `npm test`, renders `public/index.php` to `dist/index.html`, copies static assets, and publishes the `dist` artifact to GitHub Pages after pushes to `main`.
+
+The workflow also runs for pull requests and the prepared issue branch so deployment changes are checked before merge.
