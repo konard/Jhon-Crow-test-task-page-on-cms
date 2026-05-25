@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - issue-1-b2930f5e2eb8
+      - issue-4-fce902db2f96
   pull_request:
   workflow_dispatch:
 
@@ -51,6 +51,9 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
       - name: Render static site
         run: |

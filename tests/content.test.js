@@ -29,5 +29,6 @@ assert.match(css, /grid-template-columns: repeat\(3/, 'desktop grid layout is re
 assert.match(pagesWorkflow, /actions\/deploy-pages@v4/, 'workflow must deploy to GitHub Pages');
 assert.match(pagesWorkflow, /php public\/index\.php > dist\/index\.html/, 'workflow must render PHP page into a static artifact');
 assert.match(pagesWorkflow, /npm test/, 'workflow must run tests before deployment');
+assert.match(pagesWorkflow, /actions\/configure-pages/, 'workflow must configure Pages source to use GitHub Actions deployment');
 
 console.log('Content, template, SEO, responsive, and deployment checks passed.');
